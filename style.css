@@ -91,9 +91,9 @@ html, body{
 
 .gallery:hover{
     background-color: gray;
-    .desc{
-        color:white;
-    }
+}
+.gallery:hover .desc{
+    color:white;
 }
 .gallery img{
     width: 100%;
@@ -172,7 +172,7 @@ html, body{
     animation-name: tier;
     animation-duration:4s;
     animation-iteration-count:infinite;
-    animation-direction:right;
+    animation-direction:normal;
     animation-delay:5ms;
 }
 @keyframes tier{
@@ -192,7 +192,7 @@ html, body{
     animation-name: tier2;
     animation-duration:4s;
     animation-iteration-count:infinite;
-    animation-direction:right;
+    animation-direction:normal;
 }
 @keyframes tier2{
     from{
@@ -211,7 +211,7 @@ html, body{
     animation-name: tier3;
     animation-duration:4s;
     animation-iteration-count:infinite;
-    animation-direction:right;
+    animation-direction:normal;
 }
 @keyframes tier3{
     from{
@@ -230,7 +230,7 @@ html, body{
     animation-name: tier4;
     animation-duration:4s;
     animation-iteration-count:infinite;
-    animation-direction:right;
+    animation-direction:normal;
 }
 @keyframes tier4{
     from{
