@@ -87,9 +87,7 @@ html, body{
     float: left;
     width: 250px;
 }
-.gallery-container{
-    margin:auto;
-}
+
 
 .gallery:hover{
     background-color: gray;
@@ -109,6 +107,24 @@ html, body{
     text-align:center;
     font-size:x-large;
     padding:3px;
+}
+
+.responsive{
+    display:flex;
+    padding: 0 6px;
+    float:left;
+    width:25%
+}
+
+@media only screen and (max-width:700px){
+    .responsive{
+        width:50%;
+    }
+}
+@media only screen and (max-width:500px){
+    .responsive{
+        width:100%;
+    }
 }
 .clearfix:after{
     content:"";
@@ -148,7 +164,7 @@ html, body{
 
 .animatebox{
     width: 800px;
-    height: 50px;
+    height: 65px;
     margin-bottom:7px;
     border-radius: 50px;
     background-color: cadetblue;
@@ -169,7 +185,7 @@ html, body{
 }
 .animatebox2{
     width: 800px;
-    height: 50px;
+    height: 65px;
     margin-bottom:7px;
     border-radius: 50px;
     background-color: cadetblue;
@@ -188,7 +204,7 @@ html, body{
 }
 .animatebox3{
     width: 800px;
-    height: 50px;
+    height: 65px;
     margin-bottom:7px;
     border-radius: 50px;
     background-color: cadetblue;
@@ -207,7 +223,7 @@ html, body{
 }
 .animatebox4{
     width: 800px;
-    height: 50px;
+    height: 65px;
     margin-bottom:7px;
     border-radius: 50px;
     background-color: cadetblue;
@@ -233,3 +249,4 @@ html, body{
     margin-top: -0px;
     color: lightgray;
 }
+
