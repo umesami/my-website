@@ -38,7 +38,8 @@ html, body{
     background-image: url(philippines/IMG_2830.jpg);
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    opacity:90%;
 }
 
 .title{
@@ -51,6 +52,7 @@ html, body{
     font-weight:normal;
 }
 .subtitle{
+    padding-top:10px;
     text-align:center;
     font-size:2em;
     font-weight: normal;
@@ -64,6 +66,8 @@ html, body{
     text-align:center;
     font-size: 2em;
     border-top:1px solid #111;
+    border-left:1px solid;
+    border-left-width:0ch;
 }
 .bio{
     text-align:center;
@@ -78,6 +82,7 @@ html, body{
 
 .gallery{
     margin: 20px;
+    margin-right: 5px;
     border: 2px solid gray;
     float: left;
     width: 250px;
@@ -139,4 +144,92 @@ html, body{
 .footer-nav img{
     width: 30px;
     height: 30px
+}
+
+.animatebox{
+    width: 800px;
+    height: 50px;
+    margin-bottom:7px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    animation:forwards;
+    animation-name: tier;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:right;
+    animation-delay:5ms;
+}
+@keyframes tier{
+    from{
+        width:0%;
+    }
+    to{
+        width:100%
+    }
+}
+.animatebox2{
+    width: 800px;
+    height: 50px;
+    margin-bottom:7px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    animation-name: tier2;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:right;
+}
+@keyframes tier2{
+    from{
+        width:0%;
+    }
+    to{
+        width:90%
+    }
+}
+.animatebox3{
+    width: 800px;
+    height: 50px;
+    margin-bottom:7px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    animation-name: tier3;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:right;
+}
+@keyframes tier3{
+    from{
+        width:0%;
+    }
+    to{
+        width:80%
+    }
+}
+.animatebox4{
+    width: 800px;
+    height: 50px;
+    margin-bottom:7px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    animation-name: tier4;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:right;
+}
+@keyframes tier4{
+    from{
+        width:0%;
+    }
+    to{
+        width:75%
+    }
+}
+.list-container{
+    position:relative;
+}
+.text{
+    position:absolute;
+    margin-left: 10px;
+    margin-top: -0px;
+    color: lightgray;
 }
